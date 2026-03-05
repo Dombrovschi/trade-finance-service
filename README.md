@@ -250,4 +250,4 @@ All errors follow a consistent structure:
 
 ## Development time
 
-Approximately **4–5 hours**.
+Approximately **6-7 hours**.
