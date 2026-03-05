@@ -1,0 +1,9 @@
+package com.andreidombrovschi.tradefinance.common.exceptions;
+
+import org.springframework.http.HttpStatus;
+
+public class NotFoundException extends BusinessException {
+    public NotFoundException(ErrorCode code, String message) {
+        super(code, HttpStatus.NOT_FOUND, message);
+    }
+}
